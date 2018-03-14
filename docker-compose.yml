@@ -1,0 +1,6 @@
+repo:
+ build: .
+ ports:
+  - "8088:80"
+ volumes:
+  - /var/www/html
