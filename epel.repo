@@ -1,0 +1,6 @@
+[epel]
+name=Extra Packages for Enterprise Linux 7 - $basearch
+baseurl=http://repo-1/epel/7/$basearch/   # UPDATE "repo-1"
+enabled=1
+gpgcheck=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-7
